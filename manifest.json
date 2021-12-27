@@ -1,0 +1,16 @@
+{
+    "name": "No Malicons!",
+    "description": "Remove malicons on MAL",
+    "version": "1.0",
+    "manifest_version": 3,
+    "icons": {
+        "48": "/assets/icons/48.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://myanimelist.net//*"],
+            "js": ["main.js"]
+        }
+    ],
+    "host_permissions": ["<all_urls>"]
+}
