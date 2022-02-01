@@ -31,6 +31,11 @@ function run(){
     for(let bubble of bubbles){
         bubble.style.visibility="hidden";
     }
+
+    let broadcastIcons = document.getElementsByClassName("broadcast-item");
+    for(let icon of broadcastIcons){
+        icon.style.visibility="hidden";
+    }
 }
 
 console.log("NoMalicons Injected!");
