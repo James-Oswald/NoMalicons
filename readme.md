@@ -1,4 +1,7 @@
 
+**!!This project is Depreciated and does not work with the current version of MAL!!**
+Maintatining this to not break with each update to their CSS every month is too big a hastle, I surrender.
+
 # No Malicons!
 
 My custom edits to MAL's Styles
